@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+div {
+    min-height: 100vh;
+    height: 300px;
+    color: black;
+    border: 2px solid none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.profile{
+background: #ededed;
+}
+.skill{
+background: #b6c4a611;
+}
+.achieve{
+background: #f4f4f4e1;
+}
+
