@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/pexels-photo-633409.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+}
+
+span {
+    color: #ea1538;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    background: black;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    color: #ea1538;
+    transition: 0.3s;
+}
+
+.detail {
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.detail h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.detail p {
+    color: #f5f0f6;
+}
+
+.detail a {
+    background: #ea1538;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #222;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.logo{
+    height: auto;
+    width: auto;
+    max-height: 75px;
+    max-width: 300px;
+    margin-left: 6%;
+}
+
+/* about */
+
+.about{
+    height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+}
+.about-title h2{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    padding: 0.5rem 1rem;
+}
+.content-divider {
+    height: 0.5rem;
+    background: #ea1538;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.img-text{
+    max-width: 35rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+/* skills */
+
+.section{
+    height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+.section-title h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* contact */
+
